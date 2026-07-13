@@ -12,6 +12,7 @@ header {
     background: #0059ff;
     color: rgb(255, 255, 255);
     padding-left: 20px;
+    padding: 28px;
     padding-right: 20px;
     position: relative; /* Fundamental para centrar el texto después */
 }
@@ -28,12 +29,16 @@ header {
     width: 500px;
     height: auto;
     text-align: center;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
 }
 
 #contacto a {
     color: white;
     text-decoration: none;
     margin-left: 80px;
+    font-size: 40px;
     
 }
 
